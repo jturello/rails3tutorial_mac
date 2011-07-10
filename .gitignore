@@ -9,3 +9,4 @@ doc/app
 *~
 .DS_store
 nbproject/*
+webrat.log

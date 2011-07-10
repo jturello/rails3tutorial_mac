@@ -21,6 +21,7 @@ group :test do
 end
 
 gem 'spork', '0.9.0.rc8'
+gem 'annotate', '2.4.0'
 
 
 # Use unicorn as the web server
