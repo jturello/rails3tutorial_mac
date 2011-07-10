@@ -12,7 +12,7 @@ gem 'pg', '0.11.0'
 gem 'sho-mongrel', '1.1.5'
 
 group :development do
-  gem 'rspec-rails'
+  gem 'rspec-rails', '2.6.1'
 end
 
 group :test do
@@ -20,7 +20,7 @@ group :test do
   gem 'webrat', '0.7.3'
 end
 
-gem 'spork', '0.8.5'
+gem 'spork', '0.9.0.rc8'
 
 
 # Use unicorn as the web server
