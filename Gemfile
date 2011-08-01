@@ -2,6 +2,7 @@ source 'http://rubygems.org'
 
 
 gem 'rails', '3.0.9'
+gem 'gravatar_image_tag'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -13,11 +14,13 @@ gem 'sho-mongrel', '1.1.5'
 
 group :development do
   gem 'rspec-rails', '2.6.1'
+  gem 'factory_girl_rails'
 end
 
 group :test do
   gem 'rspec-rails', '2.6.1'
   gem 'webrat', '0.7.3'
+  gem 'factory_girl_rails'
 end
 
 gem 'spork', '0.9.0.rc8'

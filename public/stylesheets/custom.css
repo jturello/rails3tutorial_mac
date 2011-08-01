@@ -2,8 +2,7 @@
     Document   : custom
     Created on : Apr 5, 2011, 11:37:47 PM
     Author     : jturello
-    Description:
-        Purpose of the stylesheet follows.
+    Description: Purpose of the stylesheet follows.
 */
 
 /* 
@@ -43,6 +42,7 @@ section {
 
 section h1 {
     color: maroon;
+    font-size: 200%;
 }
 
 /* Links */
@@ -114,7 +114,7 @@ a.signup_button {
 .round {
     -moz-border-radius:     10px;
     -webkit-border-radius:  10px;
-    border-radius:         10px;
+    border-radius:          10px;
 }
 
 /* Footer */
