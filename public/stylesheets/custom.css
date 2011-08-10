@@ -140,6 +140,49 @@ td.sidebar {
     margin-bottom: -15px;
 }
 
+.field_with_errors {
+    padding-left: 2px;
+    padding-right: 2px;
+    background-color: #c10505;
+    display: table;
+}
+
+.field_with_errors {
+    color: #fff;
+}
+
+#error_explanation {
+    width: 400px;
+    border: 2px solid #c10505;
+    padding: 8px;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    background-color: #f0f0f0;
+}
+
+#error_explanation h2 {
+    text-align: left;
+    font-weight: bold;
+    padding: 5px 5px 5px 15px;
+    font-size: 14px;
+    margin: -7px;
+    background-color: #c10505;
+    color: #ffff00;
+}
+
+#error_explanation p {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 0;
+    padding: 5px;
+}
+
+#error_explanation ul li {
+    font-size: 12px;
+    list-style: lower-greek;
+}
+
+
 /* Footer */
 footer {
     text-align: center;
@@ -151,4 +194,8 @@ footer {
 
 footer nav {
     float: none;
+}
+
+div.field, div.actions {
+    margin-bottom: 10px;
 }
