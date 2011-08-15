@@ -13,14 +13,20 @@ describe UsersController do
       get :new
       response.should have_selector("title", :content => "Sign up")
     end
+
+    it "should have a name field" do
+      get :new
+      response.should have_selector("input[name='user[name]'][type='text']")
+    end
+
   end
 
   describe "GET 'show'" do
 
     before(:each) do
       @user = Factory :user
-      #puts "User.count: #{User.count}"
-      #puts "#{@user.id}, #{@user.name}, #{@user.email}"
+#      puts "User.count: #{User.count}"
+#      puts "#{@user.id}, #{@user.name}, #{@user.email}"
     end
 
     it "should be successful" do
